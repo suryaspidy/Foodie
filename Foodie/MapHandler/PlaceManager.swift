@@ -13,7 +13,7 @@ class PlaceManager {
     
     static let client = GMSPlacesClient.shared()
     
-    /// Used to get searched places list
+    /// Used to get searched places list 
     /// - Parameter val : searchable string value
     /// - Returns: It returns Array of places object and error.
     static func getPlaceList(_ val: String, completion: @escaping(Result<[GMSAutocompletePrediction], Error>) -> Void) {
